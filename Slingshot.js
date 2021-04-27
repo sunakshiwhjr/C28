@@ -11,7 +11,7 @@ class Slingshot{
         }
         //we are assing the argument passed in the constructor to this.pointB
         // so that it can be accessed in the display or accessible in the display function. Not a compulsory to use this.pointB
-       // this.pointB = point;
+        this.pointB = point;
         this.sling = Constraint.create(options);
         World.add(myWorld, this.sling);
         console.log(this.sling);
